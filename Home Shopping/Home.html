@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<title>Online Shopping in Pakistan</title>
+<link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmpXFBHfbE2kJD_FSuFmOjKlUarLyvJn4xcQt0YFfGoA&s">
+<link rel="stylesheet" href="Home.css">
+</head>
+<body>
+<div class="Website">
+<header>
+<div class="alert alert-primary" role="alert" id="alert">
+Due to recent currency fluctuations the prices of the products can be changed at any time  
+</div>
+<img src="https://cdn.homeshopping.pk/templates/ResGarden/images/HSN_Logo_White@2x.png?1464264624" alt="" id="homeimg">    
+<input type="text" id="textbox" placeholder="What are you looking for?">
+<button id="loginbtn"><a href="login.html" id="loginlink">LOGIN</a></button>
+<img src="data:image/jpeg;base64,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" alt="" id="cartimg">
+</div>
+</header>
+<div id="bgcolor">
+<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+<div class="carousel-inner">
+<div class="carousel-item active">
+<img src="https://cdn.homeshopping.pk/templates/ResGarden/images/HomeSlider2018/gaming-wf2022-1440x330.png" class="d-block w-100" alt="...">
+</div>
+<div class="carousel-item">
+<img src="https://cdn.homeshopping.pk/templates/ResGarden/images/HomeSlider2018/smartphones-wf2022-1440x330.png" class="d-block w-100" alt="...">
+</div>
+<div class="carousel-item">
+<img src="https://cdn.homeshopping.pk/templates/ResGarden/images/HomeSlider2018/applicance-wf2022-1440x330.png" class="d-block w-100" alt="...">
+</div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+<span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span>
+<span class="visually-hidden">Next</span>
+</button>
+</div>
+<h4 id="categoryheading">Smartphones & Tablets</h4>
+<div class="card">
+<img src="https://cdn.homeshopping.pk/product_images/q/913/blue__69486_thumb.png" class="card-img-top" alt="..." id="imgone">
+<div class="card-body">
+<p class="card-text">Tecno Spark 10C (4G 4GB/128GB) Meta Blue With Official Warranty</p>
+<h5 id="rs">RS 28,499</h5>
+</div>
+</div>
+<div class="card">
+<img src="https://cdn.homeshopping.pk/product_images/u/582/pk-galaxy-a14-sm-a145-sm-a145fzkgpkd-536626144__43457_thumb.png" class="card-img-top" alt="..." id="imgone">
+<div class="card-body">
+<p class="card-text">Samsung Galaxy A14 (4G 4GB/64GB Black Mlst + warranty)</p>
+<h5 id="rs">RS 35,999</h5>
+</div>
+</div>
+<div class="card">
+<img src="https://cdn.homeshopping.pk/product_images/i/358/Vgotel-New-22-Green-2__16146_thumb.png" class="card-img-top" alt="..." id="imgone">
+<div class="card-body">
+<p class="card-text">VGO TEL New 22 (4GB/128GB Green) - With Official Warranty</p>
+<h5 id="rs">RS 26,999</h5>
+</div>
+</div>
+<div class="card">
+<img src="https://cdn.homeshopping.pk/product_images/k/468/Infinix-Smart-7-Peacock-Blue-1__45069_thumb.jpg" class="card-img-top" alt="..." id="imgone">
+<div class="card-body">
+<p class="card-text">Infinix Smart 7 (4G 4GB/64GB) Peacock Blue With Warranty</p>
+<h5 id="rs">RS 24,099</h5>
+</div>
+</div>
+<h4 id="categoryheading">Home Appliances</h4>
+<div class="card">
+<img src="https://cdn.homeshopping.pk/product_images/w/974/AG-6048-1-550x600__12905_thumb.jpg" class="card-img-top" alt="..." id="imgone">
+<div class="card-body">
+<p class="card-text">Anex AG-6048 Blender Grinder 3 in 1 Unbreakable</p>
+<h5 id="rs">RS 5,799</h5>
+</div>
+</div>
+<div class="card">
+<img src="https://cdn.homeshopping.pk/product_images/w/727/023-SA-777-Jumbo-Wash__90575_thumb.jpg" class="card-img-top" alt="..." id="machine">
+<div class="card-body">
+<p class="card-text">Super Asia Washing Machine Jumbo Wash SA-777</p>
+<h5 id="rs">RS 24,999</h5>
+</div>
+</div>
+<div class="card">
+<img src="https://cdn.homeshopping.pk/product_images/t/200/KE-400__85426_thumb.jpg" class="card-img-top" alt="..." id="imgone">
+<div class="card-body">
+<p class="card-text">Boss KE 400+BS Round Shape Spin Dryer Machine</p>
+<h5 id="rs">RS 12,499</h5>
+</div>
+</div>
+<div class="card">
+<img src="https://cdn.homeshopping.pk/product_images/c/171/image__52337_thumb.png" class="card-img-top" alt="..." id="refrigrator">
+<div class="card-body">
+<p class="card-text">Dawlance 9149 Double Door Refrigrator - Hairline Black</p>
+<h5 id="rs">RS 72,590</h5>
+</div>
+</div> 
+<h4 id="categoryheading">Cameras</h4>
+<div class="card">
+<img src="https://cdn.homeshopping.pk/product_images/l/788/eos-2000d-360_set__30149_thumb.png" class="card-img-top" alt="..." id="camerasimg">
+<div class="card-body">
+<p class="card-text">Canon EOS 2000D Kit EFS 18-55 International Warranty</p>
+<h5 id="rs">RS 81,499</h5>
+</div>
+</div>
+<div class="card">
+<img src="https://cdn.homeshopping.pk/product_images/f/276/71f8wMHfklL._AC_SX466___55111_thumb.jpg" class="card-img-top" alt="..." id="goproimg">
+<div class="card-body">
+<p class="card-text">GoPro HERO 9 5K Waterproof Camera - Black</p>
+<h5 id="rs">RS 75,399</h5>
+</div>
+</div>
+<div class="card">
+<img src="https://cdn.homeshopping.pk/product_images/x/340/dd995654e25b8b87d032d3c4809a0b35%40ultra__38194_thumb.jpg" class="card-img-top" alt="..." id="droneimg">
+<div class="card-body">
+<p class="card-text">DJI Mini 3 Pro with (DJI RC) Remote Controller Drone</p>
+<h5 id="rs">RS 249,999</h5>
+</div>
+</div>
+<div class="card">
+<img src="https://cdn.homeshopping.pk/product_images/e/384/71bVQtDULTL._AC_SL1500___45149_zoom.jpg" class="card-img-top" alt="..." id="camerasimg">
+<div class="card-body">
+<p class="card-text">Sony Cyber-shot DSCW800 Digital Camera</p>
+<h5 id="rs">RS 40,499</h5>
+</div>
+</div>            
+<h4 id="categoryheading">Computers & Laptops</h4>
+<div class="card">
+<img src="https://static-01.daraz.pk/p/c7c1cabcc0343552b455f197984edd5d.jpg_300x0q75.webp" class="card-img-top" alt="..." id="laptopimg">
+<div class="card-body">
+<p class="card-text">HP ELITEBOOK 849-G5 8TH GENERATION | INTEL CORE-i5</p>
+<h5 id="rs">RS 88,499</h5>
+</div>
+</div>
+<div class="card">
+<img src="https://static-01.daraz.pk/p/d3fdae9aec7bf71ecc07a4f2220a31ba.jpg_300x0q75.webp" class="card-img-top" alt="..." id="laptopimg">
+<div class="card-body">
+<p class="card-text">HP 15S-DU1520TU Celeron N4020 4GB 1TB UMA 15.6 HD WIN 10</p>
+<h5 id="rs">RS 62,599</h5>
+</div>
+</div>
+<div class="card">
+<img src="https://static-01.daraz.pk/p/275eb627b2401bcadfb0c3418d17496f.jpg_300x0q75.webp" class="card-img-top" alt="..." id="laptopimg">
+<div class="card-body">
+<p class="card-text">Lenovo NOTEBOOK IDEA PAD 3CI7-1165G7 8GB 1TB DOS 15.6</p>
+<h5 id="rs">RS 206,999</h5>
+</div>
+</div>
+<div class="card">
+<img src="https://static-01.daraz.pk/p/8fe2c58ca930c25c6687455cbc453b3f.jpg_300x0q75.webp" class="card-img-top" alt="..." id="laptopimg">
+<div class="card-body">
+<p class="card-text">HP 15-FQ5098TU Core i5 12th Gen,8GB, 512GB SSD,15.6" FHD</p>
+<h5 id="rs">RS 192,999</h5>
+</div>
+</div>
+<h4 id="categoryheading">Top Trending Brands</h4>
+<marquee>
+<img src="https://cdn.homeshopping.pk/templates/ResGarden/images/menucategory/Dell.png" alt="" class="brandsimg">
+<img src="https://cdn.homeshopping.pk/templates/ResGarden/images/menucategory/HP.png" alt="" class="brandsimg">
+<img src="https://cdn.homeshopping.pk/templates/ResGarden/images/menucategory/Lenovo.png" alt="" class="brandsimg">
+<img src="https://cdn.homeshopping.pk/templates/ResGarden/images/menucategory/Asus.png" alt="" class="brandsimg">
+<img src="https://cdn.homeshopping.pk/templates/ResGarden/images/menucategory/LG.png" alt="" class="brandsimg">
+<img src="https://cdn.homeshopping.pk/templates/ResGarden/images/menucategory/Intel.png" alt="" class="brandsimg">
+<img src="https://cdn.homeshopping.pk/templates/ResGarden/images/menucategory/Oneplus.png" alt="" class="brandsimg">
+<img src="https://cdn.homeshopping.pk/templates/ResGarden/images/menucategory/Sony.png" alt="" class="brandsimg">
+</marquee>
+<h4 class="store">The Largest Store for Online Shopping in Pakistan</h4>
+<p id="paragraph">Homeshopping.pk: Pioneer in e-commerce industry, we stand exceptional in offering electronic products under one roof with best prices and availability. The primary objective is to provide the best <b>online shopping</b> experience and the best customer service possible to the customers. There are countless products listed on the website, under different categories, from some of the best and reliable brands. So, if you are tired from work or don't want to drive in the hot weather, homeshopping.pk is a perfect place for you to shop all kinds of products from electronic gadgets to your favorite apparel while relaxing on your couch.</p>
+<!-- <button id="read">Read More</button>
+<h5 id="heading">We're Always Ready To Help</h5>
+<p id="paragraph" class="para">Reach out to us through any of these support channels</p>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJNtzNH8MyQp6W8SYqZ8fMgAGNM19yAliZT5JShRjwvg&s" alt="" id="walogo" class="shadow">
+<p id="phonenum" class="shadow">03-111-476-725</p>
+<img src="data:image/png;base64,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" alt="" id="maillogo" class="shadow">
+<p id="mail" class="shadow">Support@homeshopping.pk</p>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuRrEUweImL39JH4VdTTgKlpSDS1CHcuixPg&usqp=CAU" alt="" id="hpimg" class="shadow">
+<p id="number" class="shadow">03-111-476-725</p>
+<footer>
+<h5 class="footerheading">Mobile Phones & Tablets </h5>    
+<h5 class="footerheading">Cameras</h5>
+<h5 class="footerheading">TV & Video</h5>
+<h5 class="footerheading">Computers & Laptops</h5>
+<h5 class="footerheading">Home Appliances</h5>
+<ul>
+<li class="footerdata">Mobile Phones</li> 
+<li class="footerdata">Digital Cameras</li>
+<li class="footerdata">QLED TV</li>
+<li class="footerdata" id="laptop">Laptop</li>
+<li class="footerdata" id="appliances">Large Appliances</li>   
+</ul> -->
+</footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

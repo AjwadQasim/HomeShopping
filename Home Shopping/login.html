@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LOGIN FORM</title>
+<link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmpXFBHfbE2kJD_FSuFmOjKlUarLyvJn4xcQt0YFfGoA&s">
+</head>
+<body>
+<div class="form">
+<fieldset>
+<h3>LOGIN YOUR ACCOUNT</h3>
+<input type="text" id="email" placeholder="Enter Email">
+<br>
+<input type="password" name="" id="password" placeholder="Enter Password"><br>   
+<button>LOGIN</button> 
+<p id="forgot">Forgot your Passsword</p>
+<p id="account">Create Account</p>
+</fieldset>   
+</div>  
+<style>
+fieldset{
+width: 21rem;
+border-radius: 15px;
+border-color: black;
+background-color:cornsilk;
+}
+#email{
+margin-top: 1rem;
+width: 18rem;
+margin-left: 1rem;
+height: 1.5rem;    
+}
+#password{
+margin-top: 1rem;
+width: 18rem;
+margin-left: 20px;
+height: 1.5rem;    
+}
+button{
+margin-top: 1rem;
+background-color:cornsilk;
+width: 7rem;
+height: 1.8rem;
+color:black;
+font-weight: bolder;
+font-size: 0.9rem;
+margin-left: 5rem;
+}
+button:hover{
+cursor: pointer;
+}
+#account{
+margin-left: 10rem;
+color: blue;
+}
+#forgot{
+margin-left: 10rem;
+color: blue;   
+}
+#account:hover,#forgot:hover{
+cursor: pointer;    
+}
+h3{
+font-size: 1.5rem;
+border-bottom: 2px solid black;
+text-align: center;
+margin-top: 10px;
+}
+.form{
+margin-left: 30rem;
+margin-top: 8rem;    
+}
+@media screen and (max-width:600px){
+  .form{
+    width: 6rem;
+    margin-left: 1rem;
+  }
+
+}
+</style>  
+</body>
+</html>
